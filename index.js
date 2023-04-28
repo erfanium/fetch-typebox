@@ -1,7 +1,8 @@
 "use strict";
-export class ResponseValidationError extends Error {}
+class ResponseValidationError extends Error {}
+exports.ResponseValidationError = ResponseValidationError;
 
-export class TypedResponse extends Response {
+class TypedResponse extends Response {
   constructor(response) {
     super(response.body, {
       status: response.status,
@@ -24,6 +25,7 @@ export class TypedResponse extends Response {
     });
   }
 }
+exports.TypedResponse = TypedResponse;
 
 const typeboxFetch = async (input, init) => {
   const response = await fetch(input, init);
