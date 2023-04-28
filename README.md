@@ -6,7 +6,7 @@
 
 <br>
 
-`@erfanium/fetch-typebox` is a fetch drop-in replacement for fetch that brings easy integration with [TypeBox](https://github.com/sinclairzx81/typebox)
+`@erfanium/fetch-typebox` is a drop-in replacement for fetch that brings easy integration with [TypeBox](https://github.com/sinclairzx81/typebox)
 
 
 
