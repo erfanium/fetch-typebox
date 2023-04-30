@@ -1,2 +1,4 @@
 node_modules
 screenshots
+tsconfig.json
+example.ts

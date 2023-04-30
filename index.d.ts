@@ -1,6 +1,5 @@
 import { Static, TSchema } from "@sinclair/typebox";
 import { TypeCheck } from "@sinclair/typebox/compiler";
-import { Response, RequestInfo, RequestInit } from "undici";
 
 export class ResponseValidationError extends Error {}
 
