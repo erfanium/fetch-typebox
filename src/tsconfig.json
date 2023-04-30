@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["ES2022", "DOM"],
+    "target": "ES2022",
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "declaration": true,
+    "allowJs": true,
+    "checkJs": false,
+    "outDir": "dist",
+    "skipLibCheck": false,
+    "baseUrl": "."
+  }
+}

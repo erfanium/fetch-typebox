@@ -1,6 +1,6 @@
 import { Type } from "@sinclair/typebox";
 import { TypeCompiler } from "@sinclair/typebox/compiler";
-import { fetch } from ".";
+import { fetch } from "../src";
 
 const ResponseType = TypeCompiler.Compile(
   Type.Object({
