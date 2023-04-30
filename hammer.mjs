@@ -7,7 +7,7 @@ export async function build(target = "dist") {
   await folder(target).delete();
   await shell(`tsc -p ./src/tsconfig.json --outDir ${target}`);
   await folder(target).add("package.json");
-  await folder(target).add("readme.md");
+  await folder(target).add("README.md");
   await folder(target).add("license");
   await shell(`cd ${target} && npm pack`);
 }
