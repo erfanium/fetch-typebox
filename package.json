@@ -2,8 +2,8 @@
   "name": "@erfanium/fetch-typebox",
   "version": "0.2.0",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "hammer task build",
     "publish": "hammer task publish"
