@@ -25,9 +25,12 @@ export class TypeBoxResponse extends Response {
     const errors = typeChecker.Errors(body);
     const firstError = errors.First();
 
-    throw new ResponseValidationError(firstError?.message, {
-      cause: firstError,
-    });
+    throw new ResponseValidationError(
+      `ResponseValidationError ${firstError?.message}. path: ${firstError?.path} value: ${firstError?.value}`,
+      {
+        cause: firstError,
+      }
+    );
   }
 }
 
