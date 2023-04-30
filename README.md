@@ -14,7 +14,7 @@
 
 ## Install
 
-You need Node.js v17+
+You only need an environment with fetch support (natively or via polyfill)
 
 ```
 npm install @sinclair/typebox @erfanium/fetch-typebox
